@@ -1,4 +1,4 @@
-package one.digitalinnovation.digiobank.teste
+package one.digitalinnovation.digiobank.testes
 
 import one.digitalinnovation.digiobank.Banco
 
