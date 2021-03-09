@@ -5,6 +5,10 @@ class Pessoa { //alter class
     var  nome:String = "Adriano"
     var cpf:String ="123.123.123-12"
     private set  // utilizado para deixar o método set do atributo acima em modo PRIVATE
+
+    // constructor()
+
+    fun pessoaInfo() = "Nome: $nome \nCPF: $cpf"
 /**
  * possibilidade de criar a inner class
  * uma espécie de subclass
@@ -18,8 +22,7 @@ class Pessoa { //alter class
 fun main(){
 
     val adriano = Pessoa()
-    adriano.nome = "djajla"
-    println(adriano.nome)
-    println(adriano.cpf)
+
+    println(adriano.pessoaInfo())
 
 }
